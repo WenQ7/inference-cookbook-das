@@ -8,8 +8,9 @@ DeepSeek-R1 是 DeepSeek 推出的推理强化模型，面向复杂推理、数�
 
 | 模型权重 | 量化方式 | vLLM 镜像 | 推荐硬件 | 卡数 | 部署方式 | 启动命令 |
 | -------- | -------- | --------- | -------- | ---- | -------- | -------- |
-| [deepseek-ai/DeepSeek-R1-Distill-Qwen-32B](https://www.modelscope.cn/models/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) | FP16 | 0.28.1 | BW1100 | 2 | IFB | [**`>_`**](#deepseek-r1-distill-qwen-32b-ifb-bw1100-2x-vllm-0281) |
+| [deepseek-ai/DeepSeek-R1-Distill-Qwen-32B](https://www.modelscope.cn/models/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) | FP16 | 0.28.1 | BW1100 | 1 | IFB | [**`>_`**](#deepseek-r1-distill-qwen-32b-ifb-bw1100-1x-vllm-0281) |
 |  | FP16 | 0.28.1 | BW1000 | 4 | IFB | [**`>_`**](#deepseek-r1-distill-qwen-32b-ifb-bw1000-4x-vllm-0281) |
+|  | FP16 | 0.28.1 | K100_AI | 4 | IFB | [**`>_`**](#deepseek-r1-distill-qwen-32b-ifb-k100_ai-4x-vllm-0281) |
 |  | FP16 | [0.21](../docker_images.md) | BW1100 | 2 | IFB | [**`>_`**](#deepseek-r1-distill-qwen-32b-ifb-bw1100-2x-vllm-021) |
 |                                                                                                                   | FP16 | [0.21](../docker_images.md) | BW1000 | 4 | IFB | [**`>_`**](#deepseek-r1-distill-qwen-32b-ifb-bw1000-4x-vllm-021) |
 |                                                                                                                   | FP16 | [0.21](../docker_images.md) | K100_AI | 4 | IFB | [**`>_`**](#deepseek-r1-distill-qwen-32b-ifb-k100_ai-4x-vllm-021) |
@@ -18,6 +19,7 @@ DeepSeek-R1 是 DeepSeek 推出的推理强化模型，面向复杂推理、数�
 |                                                                                                                   | FP16 | [0.18](../docker_images.md) | K100_AI | 4 | IFB | [**`>_`**](#deepseek-r1-distill-qwen-32b-ifb-k100ai-4x-vllm-018) |
 | [deepseek-ai/DeepSeek-R1-Distill-Llama-70B](https://www.modelscope.cn/models/deepseek-ai/DeepSeek-R1-Distill-Llama-70B) | BF16 | 0.28.1 | BW1100 | 2 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-ifb-bw1100-2x-vllm-0281) |
 |  | BF16 | 0.28.1 | BW1000 | 4 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-ifb-bw1000-4x-vllm-0281) |
+|  | FP16 | 0.28.1 | K100_AI | 4 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-ifb-k100_ai-4x-vllm-0281) |
 |  | BF16 | [0.21](../docker_images.md) | BW1100 | 2 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-ifb-bw1100-2x-vllm-021) |
 |                                                                                                                     | BF16 | [0.21](../docker_images.md) | BW1000 | 4 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-ifb-bw1000-4x-vllm-021) |
 |                                                                                                                     | BF16 | [0.21](../docker_images.md) | K100_AI | 8 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-ifb-k100_ai-8x-vllm-021) |
@@ -26,6 +28,7 @@ DeepSeek-R1 是 DeepSeek 推出的推理强化模型，面向复杂推理、数�
 |                                                                                                                     | BF16 | [0.18](../docker_images.md) | K100_AI | 8 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-ifb-k100ai-8x-vllm-018) |
 | [hygon/DeepSeek-R1-Distill-Llama-70B-quantized.w8a8](https://www.modelscope.cn/models/hygon/DeepSeek-R1-Distill-Llama-70B-quantized.w8a8) | INT8 W8A8 | 0.28.1 | BW1100 | 2 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-quantizedw8a8-ifb-bw1100-2x-vllm-0281) |
 |  | INT8 W8A8 | 0.28.1 | BW1000 | 4 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-quantizedw8a8-ifb-bw1000-4x-vllm-0281) |
+|  | INT8 W8A8 | 0.28.1 | K100_AI | 4 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-quantizedw8a8-ifb-k100_ai-4x-vllm-0281) |
 |  | INT8 W8A8 | [0.21](../docker_images.md) | BW1100 | 2 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-quantizedw8a8-ifb-bw1100-2x-vllm-021) |
 |                                                                                                                                             | INT8 W8A8 | [0.21](../docker_images.md) | BW1000 | 4 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-quantizedw8a8-ifb-bw1000-4x-vllm-021) |
 |                                                                                                                                             | INT8 W8A8 | [0.21](../docker_images.md) | K100_AI | 8 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-quantizedw8a8-ifb-k100_ai-8x-vllm-021) |
@@ -34,6 +37,7 @@ DeepSeek-R1 是 DeepSeek 推出的推理强化模型，面向复杂推理、数�
 |                                                                                                                                             | INT8 W8A8 | [0.18](../docker_images.md) | K100_AI | 8 | IFB | [**`>_`**](#deepseek-r1-distill-llama-70b-quantizedw8a8-ifb-k100ai-8x-vllm-018) |
 | [hygon/DeepSeek-R1-Channel-INT8-w8a8](https://www.modelscope.cn/models/hygon/DeepSeek-R1-Channel-INT8-w8a8) | INT8 W8A8 | 0.28.1 | BW1100 | 8 | IFB | [**`>_`**](#deepseek-r1-channel-int8-w8a8-ifb-bw1100-8x-vllm-0281) |
 |  | INT8 W8A8 | 0.28.1 | BW1000 | 16 | IFB | [**`>_`**](#deepseek-r1-channel-int8-w8a8-ifb-bw1000-16x-vllm-0281) |
+|  | INT8 W8A8 | 0.28.1 | K100_AI | 16 | IFB | [**`>_`**](#deepseek-r1-channel-int8-w8a8-ifb-k100_ai-16x-vllm-0281) |
 |  | INT8 W8A8 | [0.21](../docker_images.md) | BW1100 | 8 | IFB | [**`>_`**](#deepseek-r1-channel-int8-w8a8-ifb-bw1100-8x-vllm-021) |
 |                                                                                                              | INT8 W8A8 | [0.21](../docker_images.md) | BW1000 | 16 | IFB | [**`>_`**](#deepseek-r1-channel-int8-w8a8-ifb-bw1000-16x-vllm-021) |
 |                                                                                                              | INT8 W8A8 | [0.18](../docker_images.md) | BW1100 | 8 | IFB | [**`>_`**](#deepseek-r1-channel-int8-w8a8-ifb-bw1100-8x-vllm-018) |
@@ -46,14 +50,18 @@ DeepSeek-R1 是 DeepSeek 推出的推理强化模型，面向复杂推理、数�
 |                                                                                                             | FP8 W8A8 | [0.15](../docker_images.md) | BW1100 | 8 | IFB | [**`>_`**](#deepseek-r1-channel-fp8-w8a8-ifb-bw1100-8x-vllm-015) |
 | [hygon/DeepSeek-R1-W4A8-V2_6](https://www.modelscope.cn/models/hygon/DeepSeek-R1-W4A8-V2_6) | INT4 W4A8 | 0.28.1 | BW1100 | 8 | IFB | [**`>_`**](#deepseek-r1-w4a8-v2_6-ifb-bw1100-8x-vllm-0281) |
 |  | INT4 W4A8 | 0.28.1 | BW1000 | 8 | IFB | [**`>_`**](#deepseek-r1-w4a8-v2_6-ifb-bw1000-8x-vllm-0281) |
+|  | INT4 W4A8 | 0.28.1 | K100_AI | 8 | IFB | [**`>_`**](#deepseek-r1-w4a8-v2_6-ifb-k100_ai-8x-vllm-0281) |
 |  | INT4 W4A8 | [0.21](../docker_images.md) | BW1100 | 8 | IFB | [**`>_`**](#deepseek-r1-w4a8-v2_6-ifb-bw1100-8x-vllm-021) |
 |                                                                                              | INT4 W4A8 | [0.21](../docker_images.md) | BW1000 | 8 | IFB | [**`>_`**](#deepseek-r1-w4a8-v2_6-ifb-bw1000-8x-vllm-021) |
 |                                                                                              | INT4 W4A8 | [0.21](../docker_images.md) | K100_AI | 8 | IFB | [**`>_`**](#deepseek-r1-w4a8-v2_6-ifb-k100_ai-8x-vllm-021) |
 |                                                                                              | INT4 W4A8 | 0.18 | BW1100 | 8 | IFB | [**`>_`**](#deepseek-r1-w4a8-v2_6-ifb-bw1100-8x-vllm-018) |
 |                                                                                              | INT4 W4A8 | 0.18 | BW1000 | 8 | IFB | [**`>_`**](#deepseek-r1-w4a8-v2_6-ifb-bw1000-8x-vllm-018) |
 | [hygon/DeepSeek-R1-0528-Channel-INT8-w8a8](https://www.modelscope.cn/models/hygon/DeepSeek-R1-0528-Channel-INT8-w8a8) | INT8 W8A8 | 0.28.1 | BW1100 | 8 | IFB | [**`>_`**](#deepseek-r1-0528-channel-int8-w8a8-ifb-bw1100-8x-vllm-0281) |
+|  | INT8 W8A8 | 0.28.1 | BW1000 | 16 | IFB | [**`>_`**](#deepseek-r1-0528-channel-int8-w8a8-ifb-bw1000-16x-vllm-0281) |
+|  | INT8 W8A8 | 0.28.1 | K100_AI | 16 | IFB | [**`>_`**](#deepseek-r1-0528-channel-int8-w8a8-ifb-k100_ai-16x-vllm-0281) |
 | [hygon/DeepSeek-R1-0528-W4A8-V2](https://www.modelscope.cn/models/hygon/DeepSeek-R1-0528-W4A8-V2) | INT4 W4A8 | 0.28.1 | BW1100 | 8 | IFB | [**`>_`**](#deepseek-r1-0528-w4a8-v2-ifb-bw1100-8x-vllm-0281) |
 |  | INT4 W4A8 | 0.28.1 | BW1000 | 8 | IFB | [**`>_`**](#deepseek-r1-0528-w4a8-v2-ifb-bw1000-8x-vllm-0281) |
+|  | INT4 W4A8 | 0.28.1 | K100_AI | 8 | IFB | [**`>_`**](#deepseek-r1-0528-w4a8-v2-ifb-k100_ai-8x-vllm-0281) |
 |  | INT4 W4A8 | 0.21 | BW1100 | 8 | IFB | [**`>_`**](#deepseek-r1-0528-w4a8-v2-ifb-bw1100-8x-vllm-021) |
 |                                      | INT4 W4A8 | 0.21 | BW1000 | 8 | IFB | [**`>_`**](#deepseek-r1-0528-w4a8-v2-ifb-bw1000-8x-vllm-021) |
 |                                      | INT4 W4A8 | [0.18](../docker_images.md) | BW1100 | 4 | IFB | [**`>_`**](#deepseek-r1-0528-w4a8-v2-ifb-bw1100-4x-vllm-018) |
@@ -68,17 +76,17 @@ BW1000 不支持本次发版所列 FP8 权重模型；以下 FP8 权重仅提供
 
 ## 启动命令
 
-### DeepSeek-R1-Distill-Qwen-32B IFB BW1100 2x vLLM 0.28.1
+### DeepSeek-R1-Distill-Qwen-32B IFB BW1100 1x vLLM 0.28.1
 
 ```bash
 export VLLM_KV_CACHE_LAYOUT=HND
 
 vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-32B \
   --trust-remote-code \
-  --tensor-parallel-size 2 \
-  --dtype float16 \
+  --tensor-parallel-size 1 \
   --attention-backend FLASH_ATTN \
-  --kv-cache-dtype fp8_e4m3 \
+  --kv-cache-dtype auto \
+  --dtype bfloat16 \
   --enable-prefix-caching \
   --max-model-len 32768 \
   --max-num-batched-tokens 16384 \
@@ -93,8 +101,25 @@ export VLLM_KV_CACHE_LAYOUT=HND
 vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-32B \
   --trust-remote-code \
   --tensor-parallel-size 4 \
-  --dtype float16 \
   --attention-backend FLASH_ATTN \
+  --kv-cache-dtype auto \
+  --dtype bfloat16 \
+  --enable-prefix-caching \
+  --max-model-len 32768 \
+  --max-num-batched-tokens 16384 \
+  --max-num-seqs 64
+```
+
+### DeepSeek-R1-Distill-Qwen-32B IFB K100_AI 4x vLLM 0.28.1
+
+```bash
+export VLLM_HCU_USE_CUSTOM_OPS=0
+
+vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-32B \
+  --trust-remote-code \
+  --tensor-parallel-size 4 \
+  --dtype float16 \
+  --attention-backend TRITON_ATTN \
   --enable-prefix-caching \
   --max-model-len 32768 \
   --max-num-batched-tokens 16384 \
@@ -106,7 +131,6 @@ vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-32B \
 ```bash
 vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-32B \
   --kv-cache-dtype fp8_e4m3 \
-  --dtype float16 \
   --tensor-parallel-size 2 \
   --gpu-memory-utilization 0.9 \
   --trust-remote-code \
@@ -149,7 +173,6 @@ vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-32B \
 ```bash
 vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-32B \
   --kv-cache-dtype fp8_e4m3 \
-  --dtype float16 \
   --tensor-parallel-size 2 \
   --gpu-memory-utilization 0.9 \
   --trust-remote-code \
@@ -164,7 +187,6 @@ vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-32B \
 ```bash
 vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-32B \
   --kv-cache-dtype fp8_e5m2 \
-  --dtype float16 \
   --tensor-parallel-size 4 \
   --gpu-memory-utilization 0.9 \
   --trust-remote-code \
@@ -201,9 +223,6 @@ vllm serve deepseek-ai/DeepSeek-R1-Distill-Llama-70B \
   --attention-backend FLASH_ATTN \
   --kv-cache-dtype fp8_e4m3 \
   --enable-prefix-caching \
-  --enable-auto-tool-choice \
-  --tool-call-parser deepseek_v3 \
-  --reasoning-parser deepseek_r1 \
   --max-model-len 32768 \
   --max-num-batched-tokens 16384 \
   --max-num-seqs 64
@@ -222,9 +241,22 @@ vllm serve deepseek-ai/DeepSeek-R1-Distill-Llama-70B \
   --attention-backend FLASH_ATTN \
   --kv-cache-dtype fp8_e5m2 \
   --enable-prefix-caching \
-  --enable-auto-tool-choice \
-  --tool-call-parser deepseek_v3 \
-  --reasoning-parser deepseek_r1 \
+  --max-model-len 32768 \
+  --max-num-batched-tokens 16384 \
+  --max-num-seqs 64
+```
+
+### DeepSeek-R1-Distill-Llama-70B IFB K100_AI 4x vLLM 0.28.1
+
+```bash
+export VLLM_HCU_USE_CUSTOM_OPS=0
+
+vllm serve deepseek-ai/DeepSeek-R1-Distill-Llama-70B \
+  --trust-remote-code \
+  --tensor-parallel-size 4 \
+  --dtype float16 \
+  --attention-backend TRITON_ATTN \
+  --enable-prefix-caching \
   --max-model-len 32768 \
   --max-num-batched-tokens 16384 \
   --max-num-seqs 64
@@ -235,7 +267,6 @@ vllm serve deepseek-ai/DeepSeek-R1-Distill-Llama-70B \
 ```bash
 vllm serve deepseek-ai/DeepSeek-R1-Distill-Llama-70B \
   --kv-cache-dtype fp8_e4m3 \
-  --dtype float16 \
   --tensor-parallel-size 2 \
   --gpu-memory-utilization 0.9 \
   --trust-remote-code \
@@ -278,7 +309,6 @@ vllm serve deepseek-ai/DeepSeek-R1-Distill-Llama-70B \
 ```bash
 vllm serve deepseek-ai/DeepSeek-R1-Distill-Llama-70B \
   --kv-cache-dtype fp8_e4m3 \
-  --dtype float16 \
   --tensor-parallel-size 2 \
   --gpu-memory-utilization 0.9 \
   --trust-remote-code \
@@ -293,7 +323,6 @@ vllm serve deepseek-ai/DeepSeek-R1-Distill-Llama-70B \
 ```bash
 vllm serve deepseek-ai/DeepSeek-R1-Distill-Llama-70B \
   --kv-cache-dtype fp8_e5m2 \
-  --dtype float16 \
   --tensor-parallel-size 4 \
   --gpu-memory-utilization 0.9 \
   --trust-remote-code \
@@ -325,9 +354,9 @@ export VLLM_KV_CACHE_LAYOUT=HND
 vllm serve hygon/DeepSeek-R1-Distill-Llama-70B-quantized.w8a8 \
   --trust-remote-code \
   --tensor-parallel-size 2 \
-  --dtype float16 \
+  --dtype bfloat16 \
   --attention-backend FLASH_ATTN \
-  --kv-cache-dtype fp8_e4m3 \
+  --kv-cache-dtype auto \
   --enable-prefix-caching \
   --max-model-len 32768 \
   --max-num-batched-tokens 16384 \
@@ -342,8 +371,9 @@ export VLLM_KV_CACHE_LAYOUT=HND
 vllm serve hygon/DeepSeek-R1-Distill-Llama-70B-quantized.w8a8 \
   --trust-remote-code \
   --tensor-parallel-size 4 \
-  --dtype float16 \
+  --dtype bfloat16 \
   --attention-backend FLASH_ATTN \
+  --kv-cache-dtype auto \
   --enable-prefix-caching \
   --max-model-len 32768 \
   --max-num-batched-tokens 16384 \
@@ -351,12 +381,27 @@ vllm serve hygon/DeepSeek-R1-Distill-Llama-70B-quantized.w8a8 \
 ```
 
 
+### DeepSeek-R1-Distill-Llama-70B-quantized.w8a8 IFB K100_AI 4x vLLM 0.28.1
+
+```bash
+export VLLM_HCU_USE_CUSTOM_OPS=0
+
+vllm serve hygon/DeepSeek-R1-Distill-Llama-70B-quantized.w8a8 \
+  --trust-remote-code \
+  --tensor-parallel-size 4 \
+  --dtype float16 \
+  --attention-backend TRITON_ATTN \
+  --enable-prefix-caching \
+  --max-model-len 32768 \
+  --max-num-batched-tokens 16384 \
+  --max-num-seqs 64
+```
+
 ### DeepSeek-R1-Distill-Llama-70B-quantized.w8a8 IFB BW1100 2x vLLM 0.21
 
 ```bash
 vllm serve hygon/DeepSeek-R1-Distill-Llama-70B-quantized.w8a8 \
   --kv-cache-dtype fp8_e4m3 \
-  --dtype float16 \
   --tensor-parallel-size 2 \
   --gpu-memory-utilization 0.9 \
   --trust-remote-code \
@@ -399,7 +444,6 @@ vllm serve hygon/DeepSeek-R1-Distill-Llama-70B-quantized.w8a8 \
 ```bash
 vllm serve hygon/DeepSeek-R1-Distill-Llama-70B-quantized.w8a8 \
   --kv-cache-dtype fp8_e4m3 \
-  --dtype float16 \
   --tensor-parallel-size 2 \
   --gpu-memory-utilization 0.9 \
   --trust-remote-code \
@@ -414,7 +458,6 @@ vllm serve hygon/DeepSeek-R1-Distill-Llama-70B-quantized.w8a8 \
 ```bash
 vllm serve hygon/DeepSeek-R1-Distill-Llama-70B-quantized.w8a8 \
   --kv-cache-dtype fp8_e5m2 \
-  --dtype float16 \
   --tensor-parallel-size 4 \
   --gpu-memory-utilization 0.9 \
   --trust-remote-code \
@@ -524,6 +567,71 @@ vllm serve hygon/DeepSeek-R1-Channel-INT8-w8a8 \
   --all2all-backend allgather_reducescatter \
   --kv-cache-dtype fp8_e5m2 \
   --block-size 64 \
+  --enable-prefix-caching \
+  --speculative-config '{"method":"mtp","num_speculative_tokens":3,"use_local_argmax_reduction":false}' \
+  --enable-auto-tool-choice \
+  --tool-call-parser deepseek_v3 \
+  --reasoning-parser deepseek_r1 \
+  --no-async-scheduling \
+  --max-model-len 32768 \
+  --max-num-batched-tokens 16384 \
+  --max-num-seqs 64
+```
+
+### DeepSeek-R1-Channel-INT8-w8a8 IFB K100_AI 16x vLLM 0.28.1
+
+在各节点分别执行对应命令；`MASTER_ADDR` 为 rank 0 节点地址，各节点使用相同的 `MASTER_PORT`。数据并行地址和端口占位符如有使用，也应在各节点保持一致。
+
+#### rank 0
+
+```bash
+export VLLM_HCU_USE_CUSTOM_OPS=0
+export NCCL_GRAPH_MIXING_SUPPORT=1
+
+vllm serve hygon/DeepSeek-R1-Channel-INT8-w8a8 \
+  --trust-remote-code \
+  --tensor-parallel-size 16 \
+  --enable-expert-parallel \
+  --distributed-executor-backend mp \
+  --nnodes 2 \
+  --node-rank 0 \
+  --master-addr "${MASTER_ADDR}" \
+  --master-port "${MASTER_PORT}" \
+  --dtype bfloat16 \
+  --attention-backend TRITON_MLA \
+  --moe-backend triton \
+  --all2all-backend allgather_reducescatter \
+  --enable-prefix-caching \
+  --speculative-config '{"method":"mtp","num_speculative_tokens":3,"use_local_argmax_reduction":false}' \
+  --enable-auto-tool-choice \
+  --tool-call-parser deepseek_v3 \
+  --reasoning-parser deepseek_r1 \
+  --no-async-scheduling \
+  --max-model-len 32768 \
+  --max-num-batched-tokens 16384 \
+  --max-num-seqs 64
+```
+
+#### rank 1
+
+```bash
+export VLLM_HCU_USE_CUSTOM_OPS=0
+export NCCL_GRAPH_MIXING_SUPPORT=1
+
+vllm serve hygon/DeepSeek-R1-Channel-INT8-w8a8 \
+  --trust-remote-code \
+  --tensor-parallel-size 16 \
+  --enable-expert-parallel \
+  --distributed-executor-backend mp \
+  --nnodes 2 \
+  --node-rank 1 \
+  --master-addr "${MASTER_ADDR}" \
+  --master-port "${MASTER_PORT}" \
+  --headless \
+  --dtype bfloat16 \
+  --attention-backend TRITON_MLA \
+  --moe-backend triton \
+  --all2all-backend allgather_reducescatter \
   --enable-prefix-caching \
   --speculative-config '{"method":"mtp","num_speculative_tokens":3,"use_local_argmax_reduction":false}' \
   --enable-auto-tool-choice \
@@ -918,7 +1026,34 @@ vllm serve hygon/DeepSeek-R1-W4A8-V2_6 \
   --kv-cache-dtype fp8_e5m2 \
   --block-size 64 \
   --enable-prefix-caching \
-  --speculative-config '{"method":"mtp","num_speculative_tokens":1,"use_local_argmax_reduction":false}' \
+  --speculative-config '{"method":"mtp","num_speculative_tokens":3,"use_local_argmax_reduction":false}' \
+  --enable-auto-tool-choice \
+  --tool-call-parser deepseek_v3 \
+  --reasoning-parser deepseek_r1 \
+  --no-async-scheduling \
+  --max-model-len 32768 \
+  --max-num-batched-tokens 16384 \
+  --max-num-seqs 64
+```
+
+### DeepSeek-R1-W4A8-V2_6 IFB K100_AI 8x vLLM 0.28.1
+
+```bash
+export VLLM_HCU_USE_CUSTOM_OPS=0
+export NCCL_GRAPH_MIXING_SUPPORT=1
+
+vllm serve hygon/DeepSeek-R1-W4A8-V2_6 \
+  --trust-remote-code \
+  --tensor-parallel-size 8 \
+  --enable-expert-parallel \
+  --distributed-executor-backend mp \
+  --dtype bfloat16 \
+  --safetensors-load-strategy prefetch \
+  --attention-backend TRITON_MLA \
+  --moe-backend triton \
+  --all2all-backend allgather_reducescatter \
+  --enable-prefix-caching \
+  --speculative-config '{"method":"mtp","num_speculative_tokens":3,"use_local_argmax_reduction":false}' \
   --enable-auto-tool-choice \
   --tool-call-parser deepseek_v3 \
   --reasoning-parser deepseek_r1 \
@@ -1053,6 +1188,124 @@ vllm serve hygon/DeepSeek-R1-0528-Channel-INT8-w8a8 \
   --max-num-seqs 64
 ```
 
+### DeepSeek-R1-0528-Channel-INT8-w8a8 IFB BW1000 16x vLLM 0.28.1
+
+在各节点分别执行对应命令；`MASTER_ADDR` 为 rank 0 节点地址，各节点使用相同的 `MASTER_PORT`。
+
+#### rank 0
+
+```bash
+export NCCL_GRAPH_MIXING_SUPPORT=1
+
+vllm serve hygon/DeepSeek-R1-0528-Channel-INT8-w8a8 \
+  --trust-remote-code \
+  --tensor-parallel-size 16 \
+  --distributed-executor-backend mp \
+  --nnodes 2 \
+  --node-rank 0 \
+  --master-addr "${MASTER_ADDR}" \
+  --master-port "${MASTER_PORT}" \
+  --dtype bfloat16 \
+  --attention-backend FLASHMLA \
+  --moe-backend aiter \
+  --kv-cache-dtype fp8_e5m2 \
+  --block-size 64 \
+  --enable-prefix-caching \
+  --enable-auto-tool-choice \
+  --tool-call-parser deepseek_v3 \
+  --reasoning-parser deepseek_r1 \
+  --max-model-len 32768 \
+  --max-num-batched-tokens 16384 \
+  --max-num-seqs 64
+```
+
+#### rank 1
+
+```bash
+export NCCL_GRAPH_MIXING_SUPPORT=1
+
+vllm serve hygon/DeepSeek-R1-0528-Channel-INT8-w8a8 \
+  --trust-remote-code \
+  --tensor-parallel-size 16 \
+  --distributed-executor-backend mp \
+  --nnodes 2 \
+  --node-rank 1 \
+  --master-addr "${MASTER_ADDR}" \
+  --master-port "${MASTER_PORT}" \
+  --headless \
+  --dtype bfloat16 \
+  --attention-backend FLASHMLA \
+  --moe-backend aiter \
+  --kv-cache-dtype fp8_e5m2 \
+  --block-size 64 \
+  --enable-prefix-caching \
+  --enable-auto-tool-choice \
+  --tool-call-parser deepseek_v3 \
+  --reasoning-parser deepseek_r1 \
+  --max-model-len 32768 \
+  --max-num-batched-tokens 16384 \
+  --max-num-seqs 64
+```
+
+### DeepSeek-R1-0528-Channel-INT8-w8a8 IFB K100_AI 16x vLLM 0.28.1
+
+在各节点分别执行对应命令；`MASTER_ADDR` 为 rank 0 节点地址，各节点使用相同的 `MASTER_PORT`。
+
+#### rank 0
+
+```bash
+export NCCL_GRAPH_MIXING_SUPPORT=1
+export VLLM_HCU_USE_CUSTOM_OPS=0
+
+vllm serve hygon/DeepSeek-R1-0528-Channel-INT8-w8a8 \
+  --trust-remote-code \
+  --tensor-parallel-size 16 \
+  --distributed-executor-backend mp \
+  --nnodes 2 \
+  --node-rank 0 \
+  --master-addr "${MASTER_ADDR}" \
+  --master-port "${MASTER_PORT}" \
+  --dtype bfloat16 \
+  --attention-backend TRITON_MLA \
+  --moe-backend triton \
+  --block-size 64 \
+  --enable-prefix-caching \
+  --enable-auto-tool-choice \
+  --tool-call-parser deepseek_v3 \
+  --reasoning-parser deepseek_r1 \
+  --max-model-len 32768 \
+  --max-num-batched-tokens 16384 \
+  --max-num-seqs 64
+```
+
+#### rank 1
+
+```bash
+export NCCL_GRAPH_MIXING_SUPPORT=1
+export VLLM_HCU_USE_CUSTOM_OPS=0
+
+vllm serve hygon/DeepSeek-R1-0528-Channel-INT8-w8a8 \
+  --trust-remote-code \
+  --tensor-parallel-size 16 \
+  --distributed-executor-backend mp \
+  --nnodes 2 \
+  --node-rank 1 \
+  --master-addr "${MASTER_ADDR}" \
+  --master-port "${MASTER_PORT}" \
+  --headless \
+  --dtype bfloat16 \
+  --attention-backend TRITON_MLA \
+  --moe-backend triton \
+  --block-size 64 \
+  --enable-prefix-caching \
+  --enable-auto-tool-choice \
+  --tool-call-parser deepseek_v3 \
+  --reasoning-parser deepseek_r1 \
+  --max-model-len 32768 \
+  --max-num-batched-tokens 16384 \
+  --max-num-seqs 64
+```
+
 ### DeepSeek-R1-0528-W4A8-V2 IFB BW1100 8x vLLM 0.28.1
 
 ```bash
@@ -1085,6 +1338,25 @@ vllm serve hygon/DeepSeek-R1-0528-W4A8-V2 \
   --dtype bfloat16 \
   --attention-backend FLASHMLA \
   --moe-backend aiter \
+  --enable-prefix-caching \
+  --speculative-config '{"method":"mtp","num_speculative_tokens":3}' \
+  --max-model-len 32768 \
+  --max-num-batched-tokens 16384 \
+  --max-num-seqs 64
+```
+
+### DeepSeek-R1-0528-W4A8-V2 IFB K100_AI 8x vLLM 0.28.1
+
+```bash
+export LMSLIM_USE_GLOBAL_MOE_CACHE=1
+export VLLM_HCU_USE_CUSTOM_OPS=0
+
+vllm serve hygon/DeepSeek-R1-0528-W4A8-V2 \
+  --trust-remote-code \
+  --tensor-parallel-size 8 \
+  --dtype bfloat16 \
+  --attention-backend TRITON_MLA \
+  --moe-backend triton \
   --enable-prefix-caching \
   --speculative-config '{"method":"mtp","num_speculative_tokens":3}' \
   --max-model-len 32768 \
